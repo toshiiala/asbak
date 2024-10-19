@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-wallet-app",
+  "version": "1.0.0",
+  "description": "A simple wallet connection app using Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "mkdir -p dist && cp -r public/* dist/ && cp server.js dist/"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
